@@ -34,7 +34,9 @@ return planetName.toUpperCase()
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes
 */
 
-const eplanets
+const eplanets = planets.filter(function (planetName){
+    return planetName.includes("e")
+})
 
 
 // Use the reduce method to create a sentence from the words in the following array
